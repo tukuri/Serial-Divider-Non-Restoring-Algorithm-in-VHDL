@@ -26,7 +26,7 @@ use ieee.math_real.all; -- Library for generating random numbers
 --  Let's say you input FCAAA(dividend) / 075A4(divisor) = 00022(quotient) using 
 --	the keypad.
 --  If the system is in 20-bit division mode, the board will display
---	F C A A A (dividend)
+--  F C A A A (dividend)
 --  0 7 5 A 4 (divisor)
 --  0 0 0 2 2 (quotient)
 --  However, if the system is in 16-bit mode, the leftmost digit will be lost when 
