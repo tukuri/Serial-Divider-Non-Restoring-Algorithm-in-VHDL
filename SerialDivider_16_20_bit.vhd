@@ -19,7 +19,7 @@ use ieee.numeric_std.all;
 --  divisor, and quotient.
 --  The CurDigit configuration of the LEDs on the hardware board is
 --  	(Numbers indicate CurDigit)
--- 		 0  1  2  3  4  DIVIDEND
+--       0  1  2  3  4  DIVIDEND
 --  	 5  6  7  8  9  DIVISOR
 --  	 10 11 12 13 14 QUOTIENT
 --  Since the system can turn on only one digit(which is one nibble) at a time, 
